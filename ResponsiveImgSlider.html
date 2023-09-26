@@ -1,38 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/Responsiveimgslidercss.css" />
-<style>
-</style>
-</head>
-<body>
+  <head>
+    <title>CSS Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/Responsiveimgslidercss.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
-<header>
-  <h2>Cities</h2>
-  <div class="container">
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <h2>Cities</h2>
+      <div class="container swiper mySwiper">
+        <div class="content swiper-wrapper">
+          
+          <div class="slides swiper-slide">
+            <img src="images/paris_france.jpg" alt="paris_france" />
+            <div class="img_overlay">
+              <p>This is Paris</p>
+              <h1>Paris is the capital city of France</h1>
+              <h3>stylish city</h3>
+              <a href="#">Lets See Paris</a>
+            </div>
+          </div>
 
-<div class="slides">
-  <img src="images/paris_france.jpg" alt="paris_france" />
-  <div class="img_overlay">
-    <p> This is Paris </p>
-    <h1>Paris is the capital city of France</h1>
-    <h3>stylish city</h3>
-    <a href="#">Lets See Paris</a>
-  </div>
-</div>
 
-  </div>
-</header>
 
+          <div class="slides swiper-slide">
+            <img src="images/tokya japan.jpg" alt="paris_france" />
+            <div class="img_overlay">
+              <p>This is Tokya</p>
+              <h1>Paris is the capital city of japan</h1>
+              <h3>stylish city</h3>
+              <a href="#">Lets See Paris</a>
+            </div>
+          </div>
 
 
 
-<footer>
-  <p>Footer</p>
-</footer>
-<script src="js/ResponsiveImgSliderjs.js"></script>
-</body>
+          <div class="slides swiper-slide">
+            <img src="images/London.jpg" alt="paris_france" />
+            <div class="img_overlay">
+              <p>This is London</p>
+              <h1>Paris is the capital city of England</h1>
+              <h3>stylish city</h3>
+              <a href="#">Lets See Paris</a>
+            </div>
+          </div>
+        
+        
+        
+        
+        </div>
+
+    
+    
+    
+    
+        <div class="swiper-button-next btn"></div>
+    <div class="swiper-button-prev btn"></div>
+    <div class="swiper-pagination"></div>
+
+
+      </div>
+    </header>
+
+    <footer>
+      <p>Footer</p>
+    </footer>
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/ResponsiveImgSliderjs.js"></script>
+
+
+  <script>
+   
+  </script>
+
+
+
+  </body>
 </html>
